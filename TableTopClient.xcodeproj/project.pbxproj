@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2EC7871A256F7C00901FCE /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EC7861A256F7C00901FCE /* ConnectionViewController.m */; };
+		3F2EC78B1A256FA000901FCE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EC78A1A256FA000901FCE /* SettingViewController.m */; };
+		3F2EC7931A25A24A00901FCE /* CustomVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EC7921A25A24A00901FCE /* CustomVideoCell.m */; };
+		3F2EC7951A25A26C00901FCE /* CustomVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2EC7941A25A26C00901FCE /* CustomVideoCell.xib */; };
+		3F2EC7971A25D9E600901FCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC7961A25D9E600901FCE /* AVFoundation.framework */; };
+		3F42C2C819EC0CCD00FEF717 /* NSStreamAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F42C2C719EC0CCD00FEF717 /* NSStreamAdditions.m */; };
+		3F42C2CB19EC38C000FEF717 /* mac-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F42C2CA19EC38C000FEF717 /* mac-icon.png */; };
+		3F42C2CD19EC3AAB00FEF717 /* iphone-4s-wallpapers-267.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F42C2CC19EC3AAB00FEF717 /* iphone-4s-wallpapers-267.jpg */; };
+		3F692FF319EFAA0D00659714 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F692FF219EFAA0D00659714 /* CoreMotion.framework */; };
 		3FBE132219EBB8CC00899CD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE132119EBB8CC00899CD2 /* UIKit.framework */; };
 		3FBE132419EBB8CC00899CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE132319EBB8CC00899CD2 /* Foundation.framework */; };
 		3FBE132619EBB8CC00899CD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE132519EBB8CC00899CD2 /* CoreGraphics.framework */; };
@@ -17,10 +26,40 @@
 		3FBE133619EBB8CC00899CD2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE133519EBB8CC00899CD2 /* Default@2x.png */; };
 		3FBE133819EBB8CC00899CD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE133719EBB8CC00899CD2 /* Default-568h@2x.png */; };
 		3FBE133B19EBB8CC00899CD2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBE133919EBB8CC00899CD2 /* MainStoryboard.storyboard */; };
-		3FBE133E19EBB8CC00899CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE133D19EBB8CC00899CD2 /* ViewController.m */; };
+		3FBE133E19EBB8CC00899CD2 /* SentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE133D19EBB8CC00899CD2 /* SentViewController.m */; };
+		3FC9C0ED1A3010290080B06D /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9C0EC1A3010290080B06D /* ModalViewController.m */; };
+		3FC9C1021A31D81C0080B06D /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9C1011A31D81C0080B06D /* right.png */; };
+		3FD097391A0EBA68004723C5 /* CustomTableViewCellForShowImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD097381A0EBA68004723C5 /* CustomTableViewCellForShowImage.xib */; };
+		3FD0973D1A0EC651004723C5 /* CustomTableViewCellForShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0973C1A0EC651004723C5 /* CustomTableViewCellForShowImage.m */; };
+		3FD0973F1A0EED92004723C5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0973E1A0EED92004723C5 /* AssetsLibrary.framework */; };
+		3FD097531A0F20BF004723C5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD097521A0F20BF004723C5 /* TableViewController.m */; };
+		3FD097571A0F216A004723C5 /* AssetsAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD097561A0F216A004723C5 /* AssetsAccessor.m */; };
+		3FE6C78419F2AFBB00009C79 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C78319F2AFBB00009C79 /* CustomTableViewCell.xib */; };
+		3FE6C78A19F2B1B500009C79 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C78919F2B1B500009C79 /* CustomTableViewCell.m */; };
+		3FE6C79019F2BFAF00009C79 /* mac-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C78F19F2BFAF00009C79 /* mac-icon.png */; };
+		3FFE17131A1DB1EF00A5C5B7 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE17121A1DB1EF00A5C5B7 /* StartViewController.m */; };
+		3FFE17171A1DB78900A5C5B7 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE17161A1DB78900A5C5B7 /* FileViewController.m */; };
+		3FFE171A1A1F102500A5C5B7 /* RecievedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE17191A1F102500A5C5B7 /* RecievedViewController.m */; };
+		3FFE172C1A2429D200A5C5B7 /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE17281A2429D100A5C5B7 /* arrow_down.png */; };
+		3FFE172D1A2429D200A5C5B7 /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE17291A2429D100A5C5B7 /* arrow_up.png */; };
+		3FFE172E1A2429D200A5C5B7 /* cog_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE172A1A2429D100A5C5B7 /* cog_01.png */; };
+		3FFE172F1A2429D200A5C5B7 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE172B1A2429D100A5C5B7 /* folder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2EC7851A256F7C00901FCE /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		3F2EC7861A256F7C00901FCE /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		3F2EC7891A256FA000901FCE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3F2EC78A1A256FA000901FCE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3F2EC7911A25A24A00901FCE /* CustomVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoCell.h; sourceTree = "<group>"; };
+		3F2EC7921A25A24A00901FCE /* CustomVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoCell.m; sourceTree = "<group>"; };
+		3F2EC7941A25A26C00901FCE /* CustomVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomVideoCell.xib; sourceTree = "<group>"; };
+		3F2EC7961A25D9E600901FCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F42C2C619EC0CCD00FEF717 /* NSStreamAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStreamAdditions.h; sourceTree = "<group>"; };
+		3F42C2C719EC0CCD00FEF717 /* NSStreamAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStreamAdditions.m; sourceTree = "<group>"; };
+		3F42C2CA19EC38C000FEF717 /* mac-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mac-icon.png"; sourceTree = "<group>"; };
+		3F42C2CC19EC3AAB00FEF717 /* iphone-4s-wallpapers-267.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iphone-4s-wallpapers-267.jpg"; path = "../../../iphone-4s-wallpapers-267.jpg"; sourceTree = "<group>"; };
+		3F692FF219EFAA0D00659714 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3FBE131D19EBB8CC00899CD2 /* TableTopClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTopClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBE132119EBB8CC00899CD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FBE132319EBB8CC00899CD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +74,34 @@
 		3FBE133519EBB8CC00899CD2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3FBE133719EBB8CC00899CD2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3FBE133A19EBB8CC00899CD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3FBE133C19EBB8CC00899CD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FBE133D19EBB8CC00899CD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FBE133C19EBB8CC00899CD2 /* SentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SentViewController.h; sourceTree = "<group>"; };
+		3FBE133D19EBB8CC00899CD2 /* SentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentViewController.m; sourceTree = "<group>"; };
+		3FC9C0EB1A3010290080B06D /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		3FC9C0EC1A3010290080B06D /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		3FC9C1011A31D81C0080B06D /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3FD097381A0EBA68004723C5 /* CustomTableViewCellForShowImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCellForShowImage.xib; sourceTree = "<group>"; };
+		3FD0973B1A0EC651004723C5 /* CustomTableViewCellForShowImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellForShowImage.h; sourceTree = "<group>"; };
+		3FD0973C1A0EC651004723C5 /* CustomTableViewCellForShowImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellForShowImage.m; sourceTree = "<group>"; };
+		3FD0973E1A0EED92004723C5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3FD097511A0F20BF004723C5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3FD097521A0F20BF004723C5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3FD097551A0F216A004723C5 /* AssetsAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsAccessor.h; sourceTree = "<group>"; };
+		3FD097561A0F216A004723C5 /* AssetsAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsAccessor.m; sourceTree = "<group>"; };
+		3FE6C78319F2AFBB00009C79 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		3FE6C78819F2B1B500009C79 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3FE6C78919F2B1B500009C79 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3FE6C78E19F2B52000009C79 /* TableViewConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewConst.h; sourceTree = "<group>"; };
+		3FE6C78F19F2BFAF00009C79 /* mac-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mac-icon.png"; sourceTree = "<group>"; };
+		3FFE17111A1DB1EF00A5C5B7 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		3FFE17121A1DB1EF00A5C5B7 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		3FFE17151A1DB78900A5C5B7 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		3FFE17161A1DB78900A5C5B7 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		3FFE17181A1F102500A5C5B7 /* RecievedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecievedViewController.h; sourceTree = "<group>"; };
+		3FFE17191A1F102500A5C5B7 /* RecievedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecievedViewController.m; sourceTree = "<group>"; };
+		3FFE17281A2429D100A5C5B7 /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_down.png; path = standard/arrow_down.png; sourceTree = SOURCE_ROOT; };
+		3FFE17291A2429D100A5C5B7 /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_up.png; path = standard/arrow_up.png; sourceTree = SOURCE_ROOT; };
+		3FFE172A1A2429D100A5C5B7 /* cog_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cog_01.png; path = standard/cog_01.png; sourceTree = SOURCE_ROOT; };
+		3FFE172B1A2429D100A5C5B7 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder.png; path = standard/folder.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2EC7971A25D9E600901FCE /* AVFoundation.framework in Frameworks */,
+				3FD0973F1A0EED92004723C5 /* AssetsLibrary.framework in Frameworks */,
+				3F692FF319EFAA0D00659714 /* CoreMotion.framework in Frameworks */,
 				3FBE132219EBB8CC00899CD2 /* UIKit.framework in Frameworks */,
 				3FBE132419EBB8CC00899CD2 /* Foundation.framework in Frameworks */,
 				3FBE132619EBB8CC00899CD2 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +121,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2EC7901A25A1CE00901FCE /* CustomTableViewCellForVideoInAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				3F2EC7911A25A24A00901FCE /* CustomVideoCell.h */,
+				3F2EC7921A25A24A00901FCE /* CustomVideoCell.m */,
+				3F2EC7941A25A26C00901FCE /* CustomVideoCell.xib */,
+			);
+			name = CustomTableViewCellForVideoInAlbum;
+			sourceTree = "<group>";
+		};
 		3FBE131219EBB8CC00899CD2 = {
 			isa = PBXGroup;
 			children = (
+				3F2EC7961A25D9E600901FCE /* AVFoundation.framework */,
+				3F42C2CA19EC38C000FEF717 /* mac-icon.png */,
 				3FBE132719EBB8CC00899CD2 /* TableTopClient */,
 				3FBE132019EBB8CC00899CD2 /* Frameworks */,
 				3FBE131E19EBB8CC00899CD2 /* Products */,
@@ -73,6 +153,8 @@
 		3FBE132019EBB8CC00899CD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F692FF219EFAA0D00659714 /* CoreMotion.framework */,
+				3FD0973E1A0EED92004723C5 /* AssetsLibrary.framework */,
 				3FBE132119EBB8CC00899CD2 /* UIKit.framework */,
 				3FBE132319EBB8CC00899CD2 /* Foundation.framework */,
 				3FBE132519EBB8CC00899CD2 /* CoreGraphics.framework */,
@@ -83,12 +165,33 @@
 		3FBE132719EBB8CC00899CD2 /* TableTopClient */ = {
 			isa = PBXGroup;
 			children = (
+				3F2EC7901A25A1CE00901FCE /* CustomTableViewCellForVideoInAlbum */,
+				3FD097541A0F214F004723C5 /* AssetsAccessor */,
+				3FD097361A0EB9C1004723C5 /* CustomTableViewCellForImageInAlbum */,
+				3FE6C78B19F2B27600009C79 /* CustomTableViewCellForImageInList */,
+				3FBE132819EBB8CC00899CD2 /* Supporting Files */,
+				3FE6C78C19F2B47F00009C79 /* Const */,
+				3FBE133919EBB8CC00899CD2 /* MainStoryboard.storyboard */,
 				3FBE133019EBB8CC00899CD2 /* AppDelegate.h */,
 				3FBE133119EBB8CC00899CD2 /* AppDelegate.m */,
-				3FBE133919EBB8CC00899CD2 /* MainStoryboard.storyboard */,
-				3FBE133C19EBB8CC00899CD2 /* ViewController.h */,
-				3FBE133D19EBB8CC00899CD2 /* ViewController.m */,
-				3FBE132819EBB8CC00899CD2 /* Supporting Files */,
+				3F42C2C719EC0CCD00FEF717 /* NSStreamAdditions.m */,
+				3F42C2C619EC0CCD00FEF717 /* NSStreamAdditions.h */,
+				3FFE17111A1DB1EF00A5C5B7 /* StartViewController.h */,
+				3FFE17121A1DB1EF00A5C5B7 /* StartViewController.m */,
+				3F2EC7851A256F7C00901FCE /* ConnectionViewController.h */,
+				3F2EC7861A256F7C00901FCE /* ConnectionViewController.m */,
+				3FBE133C19EBB8CC00899CD2 /* SentViewController.h */,
+				3FBE133D19EBB8CC00899CD2 /* SentViewController.m */,
+				3FD097511A0F20BF004723C5 /* TableViewController.h */,
+				3FD097521A0F20BF004723C5 /* TableViewController.m */,
+				3FFE17151A1DB78900A5C5B7 /* FileViewController.h */,
+				3FFE17161A1DB78900A5C5B7 /* FileViewController.m */,
+				3FFE17181A1F102500A5C5B7 /* RecievedViewController.h */,
+				3FFE17191A1F102500A5C5B7 /* RecievedViewController.m */,
+				3FC9C0EB1A3010290080B06D /* ModalViewController.h */,
+				3FC9C0EC1A3010290080B06D /* ModalViewController.m */,
+				3F2EC7891A256FA000901FCE /* SettingViewController.h */,
+				3F2EC78A1A256FA000901FCE /* SettingViewController.m */,
 			);
 			path = TableTopClient;
 			sourceTree = "<group>";
@@ -96,6 +199,13 @@
 		3FBE132819EBB8CC00899CD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FC9C1011A31D81C0080B06D /* right.png */,
+				3FE6C78F19F2BFAF00009C79 /* mac-icon.png */,
+				3FFE17281A2429D100A5C5B7 /* arrow_down.png */,
+				3FFE17291A2429D100A5C5B7 /* arrow_up.png */,
+				3FFE172A1A2429D100A5C5B7 /* cog_01.png */,
+				3FFE172B1A2429D100A5C5B7 /* folder.png */,
+				3F42C2CC19EC3AAB00FEF717 /* iphone-4s-wallpapers-267.jpg */,
 				3FBE132919EBB8CC00899CD2 /* TableTopClient-Info.plist */,
 				3FBE132A19EBB8CC00899CD2 /* InfoPlist.strings */,
 				3FBE132D19EBB8CC00899CD2 /* main.m */,
@@ -105,6 +215,43 @@
 				3FBE133719EBB8CC00899CD2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FD097361A0EB9C1004723C5 /* CustomTableViewCellForImageInAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				3FD097381A0EBA68004723C5 /* CustomTableViewCellForShowImage.xib */,
+				3FD0973B1A0EC651004723C5 /* CustomTableViewCellForShowImage.h */,
+				3FD0973C1A0EC651004723C5 /* CustomTableViewCellForShowImage.m */,
+			);
+			name = CustomTableViewCellForImageInAlbum;
+			sourceTree = "<group>";
+		};
+		3FD097541A0F214F004723C5 /* AssetsAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				3FD097551A0F216A004723C5 /* AssetsAccessor.h */,
+				3FD097561A0F216A004723C5 /* AssetsAccessor.m */,
+			);
+			name = AssetsAccessor;
+			sourceTree = "<group>";
+		};
+		3FE6C78B19F2B27600009C79 /* CustomTableViewCellForImageInList */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C78319F2AFBB00009C79 /* CustomTableViewCell.xib */,
+				3FE6C78919F2B1B500009C79 /* CustomTableViewCell.m */,
+				3FE6C78819F2B1B500009C79 /* CustomTableViewCell.h */,
+			);
+			name = CustomTableViewCellForImageInList;
+			sourceTree = "<group>";
+		};
+		3FE6C78C19F2B47F00009C79 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C78E19F2B52000009C79 /* TableViewConst.h */,
+			);
+			name = Const;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +284,7 @@
 				ORGANIZATIONNAME = student;
 			};
 			buildConfigurationList = 3FBE131719EBB8CC00899CD2 /* Build configuration list for PBXProject "TableTopClient" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -163,6 +310,17 @@
 				3FBE133619EBB8CC00899CD2 /* Default@2x.png in Resources */,
 				3FBE133819EBB8CC00899CD2 /* Default-568h@2x.png in Resources */,
 				3FBE133B19EBB8CC00899CD2 /* MainStoryboard.storyboard in Resources */,
+				3F42C2CB19EC38C000FEF717 /* mac-icon.png in Resources */,
+				3F42C2CD19EC3AAB00FEF717 /* iphone-4s-wallpapers-267.jpg in Resources */,
+				3FE6C78419F2AFBB00009C79 /* CustomTableViewCell.xib in Resources */,
+				3FE6C79019F2BFAF00009C79 /* mac-icon.png in Resources */,
+				3FD097391A0EBA68004723C5 /* CustomTableViewCellForShowImage.xib in Resources */,
+				3FFE172C1A2429D200A5C5B7 /* arrow_down.png in Resources */,
+				3FFE172D1A2429D200A5C5B7 /* arrow_up.png in Resources */,
+				3FFE172E1A2429D200A5C5B7 /* cog_01.png in Resources */,
+				3FFE172F1A2429D200A5C5B7 /* folder.png in Resources */,
+				3F2EC7951A25A26C00901FCE /* CustomVideoCell.xib in Resources */,
+				3FC9C1021A31D81C0080B06D /* right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +333,19 @@
 			files = (
 				3FBE132E19EBB8CC00899CD2 /* main.m in Sources */,
 				3FBE133219EBB8CC00899CD2 /* AppDelegate.m in Sources */,
-				3FBE133E19EBB8CC00899CD2 /* ViewController.m in Sources */,
+				3FBE133E19EBB8CC00899CD2 /* SentViewController.m in Sources */,
+				3F42C2C819EC0CCD00FEF717 /* NSStreamAdditions.m in Sources */,
+				3FE6C78A19F2B1B500009C79 /* CustomTableViewCell.m in Sources */,
+				3FD0973D1A0EC651004723C5 /* CustomTableViewCellForShowImage.m in Sources */,
+				3FD097531A0F20BF004723C5 /* TableViewController.m in Sources */,
+				3FD097571A0F216A004723C5 /* AssetsAccessor.m in Sources */,
+				3FFE17131A1DB1EF00A5C5B7 /* StartViewController.m in Sources */,
+				3FFE17171A1DB78900A5C5B7 /* FileViewController.m in Sources */,
+				3FFE171A1A1F102500A5C5B7 /* RecievedViewController.m in Sources */,
+				3F2EC7871A256F7C00901FCE /* ConnectionViewController.m in Sources */,
+				3F2EC78B1A256FA000901FCE /* SettingViewController.m in Sources */,
+				3F2EC7931A25A24A00901FCE /* CustomVideoCell.m in Sources */,
+				3FC9C0ED1A3010290080B06D /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +392,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -242,7 +413,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -255,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableTopClient/TableTopClient-Prefix.pch";
 				INFOPLIST_FILE = "TableTopClient/TableTopClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableTopClient/TableTopClient-Prefix.pch";
 				INFOPLIST_FILE = "TableTopClient/TableTopClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +464,7 @@
 				3FBE134319EBB8CC00899CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,31 +1,15 @@
 //
 //  AppDelegate.m
-//  TableTopClient
+//  test
 //
-//  Created by student on 14/10/13.
+//  Created by student on 14/11/10.
 //  Copyright (c) 2014年 student. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-@synthesize imageDataInfo;
-@synthesize selectedCell;
-@synthesize accFlag;
-@synthesize yaw;
-@synthesize _motionManager;
-@synthesize status;
-@synthesize recievedImage;
-@synthesize selectImage;
-@synthesize ipAddress_;
-@synthesize portNo_;
-@synthesize userName_;
-@synthesize sendInfo;
-@synthesize sentBytes;
-@synthesize recievedBytes;
-@synthesize isUploadAvailable;
-@synthesize iStream;
-@synthesize oStream;
+
 - (void)dealloc
 {
     [_window release];
@@ -34,7 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     // Override point for customization after application launch.
     return YES;
 }
@@ -65,4 +48,5 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 @end
